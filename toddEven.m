@@ -1,4 +1,5 @@
-classdef toddEven < matlab.unittest.testcase
+classdef toddEven < matlab.unittest.TestCase
+
        
     methods(Test)
         function verifyodd(testcase)
